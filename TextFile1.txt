@@ -1,0 +1,52 @@
+TP N1 C++ 
+-----------------------
+
+I - QUESTIONS DE COURS
+ -   -    -    -    -    -    - 
+
+1.1)
+Le role d'un constructeur est celui d'initialiser les 
+attributs et est membre d'une fonction. Il est 
+executé en appel pour initialiser les attributs
+déclarés dans le fichier source.
+
+
+1.2)
+Le role d'un destructeur est le contraire du constructeur: il permet de "detruire" les attributs une fois 
+l'execution terminée. Il est indispensable, apres
+l'execution du programme fini, de remettre a 0 les
+attributs déclarés prealablement en initialisation.
+
+
+1.3) 
+On peux reperer un constructeur de classe en 
+regardant si apres avoir déclaré les attributs, 
+les points que l'on a initialisé. Il peut y en avoir 
+plusieurs pour chaque membre constructeur car on peux 
+initialiser plusieurs attributs a la fois.
+
+
+1.4)
+La surdefinition de fonctions peuvent avoir le 
+meme nom a condition que ce ne sont pas les memes
+parametres, si cela est le cas, le programme 
+risque de planter. (Et les données, possiblement
+perdus)
+
+
+1.5)
+La signification de la classe "public" signifie que 
+tout les instances de la classe auront acces aux 
+instances publiques et "private", signifient que 
+tout les instances de la classe auront access aux
+instances privées.
+
+
+
+
+
+II - Classe Cadre
+ -   -    -    -    -    -    - 
+ (Voir les fichiers cpp et h)
+
+
